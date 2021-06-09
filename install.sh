@@ -17,5 +17,5 @@ if [[ $info =~ "Linux" ]]; then
         fc-cache -f -v
     fi
 else
-    cp TTF/ /c/Windows/Fonts -rf
+    cp TTF/* /c/Windows/Fonts -rf
 fi
